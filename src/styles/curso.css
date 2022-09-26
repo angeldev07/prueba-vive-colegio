@@ -1,0 +1,95 @@
+.head {
+  margin: 0.5em 0;
+  text-align: center;
+}
+
+.title {
+  margin: 0.5em auto;
+  max-width: 200px;
+  font-size: 1rem;
+}
+
+.curse-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.head-img {
+  background-color: #10cc10;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+  padding: 1em;
+  border-radius: 8px;
+  width: 90px;
+  height: 90px;
+  margin: auto;
+}
+
+.head-img img {
+  width: 80px;
+}
+
+/* Contenido del modulo  */
+.list-content {
+  list-style: none;
+}
+.curse-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.5em;
+}
+
+.curse-text {
+  font-size: 0.8rem;
+}
+
+.curse-img {
+  background-color: #1ef01e;
+  display: flex;
+  justify-content: center;
+  margin-right: 1em;
+  padding: .5em;
+  border-radius: 10px;
+  width: 3.5rem;
+  height: 3.5rem;
+}
+
+.curse-container:nth-child(2) .curse-img,
+.curse-container:nth-child(2) .head-img{
+    background-color: #eea010;
+}
+
+.curse-container:nth-child(3) .curse-img,
+.curse-container:nth-child(3) .head-img{
+    background-color: #10cdee;
+}
+
+.curse-container:nth-child(1) .curse-title{
+    color: #1ef01e;
+}
+
+.curse-container:nth-child(2) .curse-title{
+    color: #eea010;
+}
+
+.curse-container:nth-child(3) .curse-title{
+    color: #10cdee;
+}
+
+.curse-title {
+  padding-bottom: 0.3em;
+}
+
+/*Contendedor*/
+
+@media screen and (min-width: 800px) {
+  .curses-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 3em;
+  }
+}

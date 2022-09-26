@@ -1,0 +1,56 @@
+.logo-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem 0 ;
+    gap: .5em
+}
+
+.logo-title{
+    display: inline-block;
+    margin: 0;
+    position: relative;
+    font-size: 2.5rem;
+}
+
+.logo-title span{
+    color: #f08d31;
+}
+
+.logo-title::after{
+    content: '';
+    background-color: #3d8af0;
+    display: block;
+    position: absolute;
+    bottom: .2rem;
+    width: 100%;
+    height: 2px;
+}
+
+.logo-lengend{
+    display: block;
+    text-transform: uppercase;
+    font-size: .75rem;
+    text-align: center  ;
+}
+
+@media screen and (min-width: 375px) {
+    .logo-title{
+        font-size: 4rem;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .logo-container{
+        margin-bottom: 7rem;
+    }
+    .logo-title{
+        font-size: 6.5rem;
+    }
+    .logo-title::after{
+        bottom: .6rem;
+    }
+    .logo-lengend{
+        font-size: 1rem;
+    }
+}

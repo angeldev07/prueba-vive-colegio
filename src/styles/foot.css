@@ -1,0 +1,22 @@
+.footer-logos-container{
+    background-color: #fff;
+    margin: 5rem auto 0;
+    padding: .8em 0 .5em;
+}   
+
+.logos{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.companie-logo img{
+    width: 150px;
+}
+
+.foot-title{
+    padding: 0  1em 1em;
+    font-size: 1rem;
+    color: #000;
+}
