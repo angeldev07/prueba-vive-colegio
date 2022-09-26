@@ -1,5 +1,6 @@
 import Curso from "./Curso";
 import svg from '../img/care.svg'
+import {Outlet} from 'react-router-dom';
 
 const contenido = [
   {
@@ -51,6 +52,7 @@ export default function OpenSection(){
             </div>
             <section className="curses-section">
                 <Curso imgCurse={svg} title={'Cuidado de sí'} content = {contenido} />
+                <Outlet/>
                 <Curso imgCurse={svg} title={'Manejo de emociones'} content = {contenido2} />
                 <Curso imgCurse={svg} title={'Generando vínculos con otros'} content = {contenido} />
             </section>
