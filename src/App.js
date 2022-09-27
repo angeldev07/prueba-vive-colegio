@@ -5,7 +5,7 @@
 // import parentsIMG from "./img/padres.png";
 // import professorIMG from "./img/instructor.png";
 // import logoIMG from './img/logo.png'
-import "./app.css";
+import "./App.css";
 import svg from "./img/care.svg";
 import Foot from "./components/Foot";
 // import OpenSection from "./components/OpenSection";
