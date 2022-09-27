@@ -25,23 +25,20 @@ body{
     gap: 2rem;
 }
 
-.logo-vive{
-    display: flex;
-    justify-content: center;
-    margin-bottom: 2rem;
-}
-
 .logo{
     display: none;
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 800px) {
     .logo-vive{
-        justify-content: end;
         position: absolute;
-        width: 100%;
-        top: 5rem;
+        width: 5rem;
+        top: 7rem;
         right: 5rem;
+    }
+
+    .logo-vive img{
+        width: 100%;
     }
     .logo{
         display: inline-block;

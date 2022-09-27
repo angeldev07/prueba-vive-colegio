@@ -1,0 +1,31 @@
+.students{
+    background-color: #980fd8;
+    padding: .5em;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    width: 8rem;
+    height: 8rem;
+    position: relative;
+    top: -2rem;
+}
+
+.name-container{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.name{
+    color: #b133eb;
+    font-size: 2.5rem;
+    font-weight: normal;
+    font-style: italic;
+}
+
+.name span{
+    font-weight: bold;
+}
+
+.name.no_name{
+    display: none;
+}

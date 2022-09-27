@@ -1,3 +1,13 @@
+
+.roles{
+    margin-top: 9rem;
+}
+
+.role{
+    text-decoration: none;
+    color: #fff;
+}
+
 .role-img{
     background-color: #980fd8;
     display: flex;

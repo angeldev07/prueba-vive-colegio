@@ -79,14 +79,19 @@
 
 .curse-title {
   padding-bottom: 0.3em;
+  font-size: 1.1rem;
 }
 
 /*Contendedor*/
+.container{
+  margin-top: 2rem;
+}
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 700px) {
   .curses-section {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    /* grid-template-columns: repeat(3, 1fr); */
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     align-items: center;
     justify-content: center;
     width: 100%;

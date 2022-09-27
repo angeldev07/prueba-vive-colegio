@@ -1,10 +1,10 @@
 import '../styles/curso.css'
 import CardCurso from './CardCurso';
 
-function Curso({imgCurse, title, content}){
+function Curso({imgCurse, title, content, to}){
     return (
         <div className="curse-container">
-            <CardCurso imgCurse={imgCurse} title={title}/>
+            <CardCurso imgCurse={imgCurse} title={title} to={to}/>
             <div className="content">
                 <ul className="list-content">
                     {content.map(

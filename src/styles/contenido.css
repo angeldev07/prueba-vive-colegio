@@ -1,0 +1,39 @@
+.play{
+    background-color: #1398cc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-right: .5em;
+    width: 2rem;
+    height: 2rem;
+    color: #fff;
+}
+
+.curse-img.orange,
+.head-img.orange{
+    background-color: #eea010;
+}
+
+.curse-img.blue,
+.head-img.blue{
+    background-color: #10cdee;
+}
+
+
+.curso-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1em;
+    margin-bottom: 2em;
+}
+
+.mensaje-curso{
+    margin-bottom: 3rem;
+}
+
+
+
+
