@@ -1,14 +1,7 @@
-// import Curso from "./components/Curso";
-// import Logo from "./components/Logo";
-// import Role from "./components/Role";
-// import studentIMG from "./img/estudiantes.png";
-// import parentsIMG from "./img/padres.png";
-// import professorIMG from "./img/instructor.png";
-// import logoIMG from './img/logo.png'
+
 import "./App.css";
 import svg from "./img/care.svg";
 import Foot from "./components/Foot";
-// import OpenSection from "./components/OpenSection";
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Layout from "./layout/Layout";
